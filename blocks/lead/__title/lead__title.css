@@ -1,0 +1,9 @@
+.lead__title {
+    font-style: normal;
+    font-weight: 900; /* TODO How should this be? */
+    font-size: 96px;
+    line-height: 93px;
+    text-align: center;
+    widht: 928px;
+    text-align: center;
+}
