@@ -1,0 +1,11 @@
+.intro__title {
+    margin-top: 102px;
+    margin-left: 48px;
+    width: 928px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 59px;
+    text-align: left;
+    border: 1px solid red;
+}

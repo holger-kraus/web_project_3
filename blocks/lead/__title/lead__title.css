@@ -4,6 +4,8 @@
     font-size: 96px;
     line-height: 93px;
     text-align: center;
-    widht: 928px;
+    width: 928px;
     text-align: center;
+    margin-left: 48px;
+    border: 1px solid red;
 }
