@@ -1,8 +1,21 @@
 .lead__image {
-    margin-top: 65px;
-    margin-left: 48px;
-    margin-right: 48px;
-    width: 964px;
-    height: 554px;
-    border: 1px solid red;
+    margin: 65px auto 0;
+    width: 100%;
+}
+
+
+@media (max-width : 1024px) {
+    .lead__image {
+    }
+}
+@media (max-width : 768px) {
+    .lead__image {
+    }
+}
+@media (max-width : 425px) {
+    .lead__image {
+        margin: 33px auto 0;
+        width: 382px;
+        height: 219px;
+    }
 }

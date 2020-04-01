@@ -1,0 +1,4 @@
+.footer__link-container.css {
+    display: flex;
+    justify-content: space-between;
+}

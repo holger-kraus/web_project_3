@@ -1,0 +1,21 @@
+.video__container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 102px;
+}
+
+@media (max-width : 1024px) {
+    .video__container {
+        flex-direction: row;
+    }
+}
+@media (max-width : 768px) {
+    .video__container {
+        flex-direction: row;
+    }
+}
+@media (max-width : 425px) {
+    .video__container {
+        flex-direction: column;
+    }
+}

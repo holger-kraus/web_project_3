@@ -1,0 +1,30 @@
+.video__item {
+    display: flex;
+    flex-direction: column;
+    width: 583px;
+    height: 323px;
+    margin-left: 18px;
+}
+
+@media (max-width : 1024px) {
+    .video__item {
+        width: 456px;
+        height: 288px;
+    }
+
+}
+@media (max-width : 768px) {
+    .video__item {
+        width: 352px;
+        height: 200px;
+    }
+
+}
+@media (max-width : 425px) {
+    .video__item {
+        width: 343px;
+        height: 200px;
+    }
+
+}
+

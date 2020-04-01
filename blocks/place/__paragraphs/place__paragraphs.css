@@ -1,0 +1,20 @@
+.place__paragraphs {
+    flex: 1 1 50%;
+    margin: 60px 0 0 0;
+}
+
+@media (max-width : 1024px) {
+    .place__paragraphs {
+        margin: 40px 0 0 0;
+    }
+}
+@media (max-width : 768px) {
+    .place__paragraphs {
+        margin: 40px 0 0 0;
+    }
+}
+@media (max-width : 425px) {
+    .place__paragraphs {
+        margin: 32px 0 0 0;
+    }
+}

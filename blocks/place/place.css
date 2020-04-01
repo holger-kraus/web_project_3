@@ -1,0 +1,14 @@
+@import url("__image-container/place__image-container.css");
+@import url("__image/place__image.css");
+@import url("__paragraphs/place__paragraphs.css");
+@import url("__paragraph/place__paragraph.css");
+@import url("__title/place__title.css");
+@import url("__website/place__website.css");
+@import url("__uri-heading/place__uri-heading.css");
+@import url("__uri/place__uri.css");
+
+.place {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 82px;
+}

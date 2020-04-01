@@ -3,9 +3,45 @@
     font-weight: 900; /* TODO How should this be? */
     font-size: 96px;
     line-height: 93px;
+    max-width: 782px;
     text-align: center;
-    width: 928px;
-    text-align: center;
-    margin-left: 48px;
-    border: 1px solid red;
+    margin: 48px auto 0;
+}
+
+
+@media (max-width : 1024px) {
+    .lead__title {
+        font-style: normal;
+        font-weight: 900; /* TODO How should this be? */
+        font-size: 96px;
+        line-height: 93px;
+        text-align: center;
+        max-width: 782px;
+        text-align: center;
+        margin: 48px auto 0;
+    }
+}
+@media (max-width : 768px) {
+    .lead__title {
+        font-style: normal;
+        font-weight: 900; /* TODO How should this be? */
+        font-size: 96px;
+        line-height: 93px;
+        text-align: center;
+        max-width: 920px;
+        text-align: center;
+        margin: 48px auto 0;
+    }
+}
+@media (max-width : 425px) {
+    .lead__title {
+        font-style: normal;
+        font-weight: 900; /* TODO How should this be? */
+        font-size: 40px;
+        line-height: 44px;
+        text-align: center;
+        width: 243px;
+        text-align: center;
+        margin: 52px auto 0;
+    }
 }

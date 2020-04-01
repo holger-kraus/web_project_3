@@ -5,7 +5,28 @@
     line-height: 12px;
     letter-spacing: 0.15em;
     text-transform: uppercase;
-    margin-left: 48px;
     margin-top: 16px;
-    border: 1px solid red;
+}
+
+
+@media (max-width : 1024px) {
+    .lead__caption {
+        font-size: 10px;
+        line-height: 12px;
+        margin-top: 16px;
+    }
+}
+@media (max-width : 768px) {
+    .lead__caption {
+        font-size: 10px;
+        line-height: 12px;
+        margin-top: 0px;
+    }
+}
+@media (max-width : 425px) {
+    .lead__caption {
+        font-size: 10px;
+        line-height: 12px;
+        margin-top: 0px;
+    }
 }

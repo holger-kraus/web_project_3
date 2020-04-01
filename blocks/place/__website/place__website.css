@@ -1,0 +1,30 @@
+.place__website {
+    margin: 0;
+    padding: 0;
+    flex: 1 1 50%;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+@media (max-width : 1024px) {
+    .place__website {
+        flex: 1 1 50%;
+
+    }
+}
+@media (max-width : 768px) {
+    .place__website {
+        flex: 1 1 50%;
+    }
+}
+@media (max-width : 425px) {
+    .place__website {
+        visibility: hidden;
+        margin: 0;
+        padding: 0;
+        width: 0;
+
+    }
+}

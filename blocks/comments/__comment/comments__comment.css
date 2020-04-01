@@ -1,0 +1,21 @@
+.comments__comment {
+    flex: 1 1 33%;
+}
+
+@media (max-width : 1024px) {
+    .comments__comment {
+        flex: 1 1 33%;
+    }
+}
+@media (max-width : 768px) {
+    .comments__comment {
+        flex: 1 1 33%;
+        align-items: center;
+    }
+}
+@media (max-width : 425px) {
+    .comments__comment {
+        flex: 1 1 33%;
+        align-items: center;
+    }
+}

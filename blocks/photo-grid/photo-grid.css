@@ -1,0 +1,24 @@
+@import url("__item/photo-grid__item.css");
+
+.photo-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 102px -100px 0 -100px;
+}
+
+@media (max-width : 1024px) {
+    .photo-grid {
+        margin: 102px 0 0 0;
+    }
+}
+@media (max-width : 768px) {
+    .photo-grid {
+        margin: 93px 0 0 0;
+    }
+}
+@media (max-width : 425px) {
+    .photo-grid {
+        margin: 72px 0 0 0;
+    }
+}

@@ -1,0 +1,39 @@
+.comments__container {
+    padding: 0 0 0 0;
+    max-width: 1184px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 65px auto 0;
+}
+
+@media (max-width : 1024px) {
+    .comments__container {
+        padding: 0 0 0 0;
+        max-width: 925px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 65px auto 0;
+    }
+}
+@media (max-width : 768px) {
+    .comments__container {
+        padding: 0 0 0 0;
+        max-width: 382px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 65px auto 0;
+    }
+}
+@media (max-width : 425px) {
+    .comments__container {
+        padding: 0 0 0 0;
+        max-width: 343px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 65px auto 0;
+    }
+}

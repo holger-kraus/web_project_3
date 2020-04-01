@@ -1,11 +1,40 @@
 @import url("__logo/header__logo.css");
-@import url("__lang-container/header__lang-container.css");
+@import url("__langs/header__langs.css");
 @import url("__lang/header__lang.css");
+@import url("__lang/_active/header__lang_active.css");
 
 .header {
     display: flex;
     justify-content: space-between;
-    width: 928px;
-    margin-top: 36px;
-    margin-left: 48px;
+    align-items: center;
+    margin: 36px auto 0;
+}
+
+
+@media (max-width : 1024px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 928px;
+        margin: 36px auto 0;
+    }
+}
+@media (max-width : 768px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 720px;
+        margin: 36px auto 0;
+    }
+}
+@media (max-width : 425px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 343px;
+        margin: 36px auto 0;
+    }
 }
