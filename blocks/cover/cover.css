@@ -1,8 +1,30 @@
 @import url("__title/cover__title.css");
 @import url("__subtitle/cover__subtitle.css");
+@import url("__bg-image/cover__bg-image.css");
 
 .cover {
-    margin-top: 84px;
-    background-image: url("../../images/HistoricRoute.jpg");
-    background-size: cover;
+    display: flex;
+    justify-content: center;
+    max-width: 1280px;
+    border: 1px solid red;
+    margin: 102px 0 0 0;
+}
+
+@media (max-width : 1024px) {
+    .cover {
+        max-width: 1024px;
+        margin: 85px -48px 0 -48px;
+    }
+}
+@media (max-width : 768px) {
+    .page {
+        max-width: 768px;
+        margin: 100px -24px 0 -24px;
+    }
+}
+@media (max-width : 425px) {
+    .page {
+        max-width: 425px;
+        margin: 50px -16px 0 -16px;
+    }
 }

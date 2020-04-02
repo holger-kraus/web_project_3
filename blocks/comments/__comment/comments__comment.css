@@ -1,21 +1,25 @@
 .comments__comment {
     flex: 1 1 33%;
+    display: flex;
+    flex-direction: column;
+    margin: 70px 0 0 0;
 }
 
 @media (max-width : 1024px) {
     .comments__comment {
         flex: 1 1 33%;
+        margin: 65px 0 0 0;
     }
 }
 @media (max-width : 768px) {
     .comments__comment {
         flex: 1 1 33%;
-        align-items: center;
+        margin: 45px 0 0 0;
     }
 }
 @media (max-width : 425px) {
     .comments__comment {
         flex: 1 1 33%;
-        align-items: center;
+        margin: 45px 0 0 0;
     }
 }
