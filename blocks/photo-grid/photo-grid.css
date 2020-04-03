@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 102px -100px 0 -100px;
+    margin: 102px 0 0;
 }
 
 @media (max-width : 1024px) {

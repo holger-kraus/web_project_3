@@ -4,5 +4,25 @@
     font-size: 14px;
     line-height: 20px;
     text-align: right;
-    border: 1px solid red;
+}
+
+@media (max-width : 1024px) {
+    .footer__copyright {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+@media (max-width : 768px) {
+    .footer__copyright {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+@media (max-width : 425px) {
+    .footer__copyright {
+        margin-top: 48px;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: left;
+    }
 }

@@ -3,11 +3,29 @@
 @import url("__link-container/footer__link-container.css");
 
 .footer {
-    max-width: 890px;
+    margin: 160px auto 48px;
+    max-width: 1184px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    margin-top: 160px;
-    margin-left: 48px;
-    margin-bottom: 50px;
-    border: 1px solid red;
+}
+
+@media (max-width : 1024px) {
+    .footer {
+        margin: 126px auto 48px;
+        max-width: 887px;
+    }
+}
+@media (max-width : 768px) {
+    .footer {
+        margin: 102px auto 24px;
+        max-width: 722px;
+    }
+}
+@media (max-width : 425px) {
+    .footer {
+        margin: 60px auto 48px;
+        flex-direction: column;
+        max-width: 100%;
+    }
 }

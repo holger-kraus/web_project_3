@@ -3,25 +3,29 @@
     background-color: #2A2C2F;
     color: #FFFFFF;
     font-family: 'Inter', sans-serif;
-    padding: 36px 128px 48px;
+    /*padding: 36px 148px 48px;*/
+    padding: 36px 0 48px;
     margin: 0 auto;
 }
 
 @media (max-width : 1024px) {
     .page {
         max-width: 1024px;
-        padding: 36px 48px 48px;
+        padding: 36px 0 48px;
+        /*padding: 36px 48px 48px;*/
     }
 }
 @media (max-width : 768px) {
     .page {
         max-width: 768px;
-        padding: 36px 24px 24px;
+        padding: 36px 0 24px;
+        /*padding: 36px 24px 24px;*/
     }
 }
 @media (max-width : 425px) {
     .page {
         max-width: 425px;
-        padding: 18px 16px 24px;
+        padding: 18px 0 24px;
+        /*padding: 18px 16px 24px;*/
     }
 }

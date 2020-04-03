@@ -1,4 +1,4 @@
-.cover__bg-image {
+.cover__container {
     position: absolute;
     bottom: 0;
     top: 0;
@@ -7,22 +7,24 @@
     height: 594px;
     z-index: 0;
     overflow: hidden;
+    background-color: red;
+    opacity: 0.3;
 }
 
 @media (max-width : 1024px) {
-    .cover__bg-image {
+    .cover__container {
         width: 100%;
         height: 594px;
     }
 }
 @media (max-width : 768px) {
-    .cover__bg-image {
+    .cover__container {
         width: 100%;
         height: 500px;
     }
 }
 @media (max-width : 425px) {
-    .cover__bg-image  {
+    .cover__container {
         width: 100%;
         height: 272px;
     }

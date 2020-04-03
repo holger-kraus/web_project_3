@@ -1,4 +1,21 @@
-.footer__link-container.css {
+.footer__link-container {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+}
+
+@media (max-width : 1024px) {
+    .footer__link-container {
+        flex-direction: row;
+    }
+}
+@media (max-width : 768px) {
+    .footer__link-container {
+        flex-direction: row;
+    }
+}
+@media (max-width : 425px) {
+    .footer__link-container {
+        flex-direction: column;
+    }
 }
