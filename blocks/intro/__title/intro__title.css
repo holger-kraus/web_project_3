@@ -1,29 +1,28 @@
 .intro__title {
-    margin-top: 80px;
     max-width: 683px;
     font-style: normal;
     font-weight: 900;
     font-size: 54px;
     line-height: 59px;
     text-align: left;
+    margin: 80px 148px 0;
 }
-
 
 @media (max-width : 1024px) {
     .intro__title {
-        margin-top: 80px;
-        max-width: 928px;
+        margin: 80px 48px 0;
+        max-width: 800px;
     }
 }
 @media (max-width : 768px) {
     .intro__title {
-        margin-top: 80px;
-        max-width: 720px;
+        margin: 80px 24px 0;
+        max-width: 760px;
     }
 }
 @media (max-width : 425px) {
     .intro__title {
-        margin-top: 64px;
+        margin: 64px 16px 0;
         max-width: 343px;
         font-size: 32px;
         line-height: 35px;

@@ -21,7 +21,7 @@
 }
 @media (max-width : 425px) {
     .place__website {
-        visibility: hidden;
+        display: none;
         margin: 0;
         padding: 0;
         width: 0;

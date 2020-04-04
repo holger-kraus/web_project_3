@@ -4,21 +4,21 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 102px 0 0;
+    margin: 90px auto 0;
 }
 
 @media (max-width : 1024px) {
     .photo-grid {
-        margin: 102px 0 0 0;
+        margin: 90px auto 0;
     }
 }
 @media (max-width : 768px) {
     .photo-grid {
-        margin: 93px 0 0 0;
+        margin: 90px auto 0;
     }
 }
 @media (max-width : 425px) {
     .photo-grid {
-        margin: 72px 0 0 0;
+        margin: 72px auto 0;
     }
 }

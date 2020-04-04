@@ -6,6 +6,7 @@
     /*padding: 36px 148px 48px;*/
     padding: 36px 0 48px;
     margin: 0 auto;
+    border: 1px solid red;
 }
 
 @media (max-width : 1024px) {

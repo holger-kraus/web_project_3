@@ -12,3 +12,23 @@
     flex-wrap: wrap;
     margin-bottom: 82px;
 }
+
+.place:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width : 1024px) {
+    .place {
+        margin-bottom: 82px;
+    }
+}
+@media (max-width : 768px) {
+    .place {
+        margin-bottom: 90px;
+    }
+}
+@media (max-width : 425px) {
+    .place {
+        margin-bottom: 60px;
+    }
+}

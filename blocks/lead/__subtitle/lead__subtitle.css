@@ -10,18 +10,18 @@
 
 @media (max-width : 1024px) {
     .lead__subtitle {
-        max-width: 928px;
+        max-width: 610px;
     }
 }
 @media (max-width : 768px) {
     .lead__subtitle {
-        max-width: 720px;
+        max-width: 610px;
     }
 }
 @media (max-width : 425px) {
     .lead__subtitle {
         font-size: 16px;
         line-height: 23px;
-        max-width: 375px;
+        max-width: 270px;
     }
 }

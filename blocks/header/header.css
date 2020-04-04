@@ -7,34 +7,26 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 36px auto 0;
+    max-width: 1184px;
+    margin: 36px 48px 0;
 }
 
 
 @media (max-width : 1024px) {
     .header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
         max-width: 928px;
-        margin: 36px auto 0;
+        margin: 36px 48px 0;
     }
 }
 @media (max-width : 768px) {
     .header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
         max-width: 720px;
-        margin: 36px auto 0;
+        margin: 36px 24px 0;
     }
 }
 @media (max-width : 425px) {
     .header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
         max-width: 343px;
-        margin: 36px auto 0;
+        margin: 18px 16px 0;
     }
 }
