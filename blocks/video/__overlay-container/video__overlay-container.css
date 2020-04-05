@@ -13,6 +13,10 @@
     height: 323px;
 }
 
+.video__overlay-container:hover {
+    opacity: 0;
+}
+
 @media (max-width : 1024px) {
     .video__overlay-container {
         height: 288px;

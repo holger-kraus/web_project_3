@@ -5,6 +5,7 @@
     flex-direction: row;
     justify-content: space-between;
     margin: 0 48px;
+    list-style: none;
 }
 
 @media (max-width : 1024px) {

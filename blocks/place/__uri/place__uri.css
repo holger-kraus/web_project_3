@@ -5,6 +5,11 @@
     font-size: 18px;
     line-height: 30px;
     letter-spacing: 0.2em;
+    color: #FFFFFF;
+}
+
+.place__uri:hover {
+    opacity: 0.5;
 }
 
 @media (max-width : 1024px) {

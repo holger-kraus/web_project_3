@@ -4,6 +4,8 @@
     height: 323px;
     margin: 0 9px 0;
     overflow: hidden;
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 @media (max-width : 1024px) {
