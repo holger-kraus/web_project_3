@@ -1,28 +1,31 @@
 .video__subtitle {
-    margin: 0 0 30px 30px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 30px;
+    top: 280px;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 15px;
+    z-index: 2;
 }
 
 @media (max-width : 1024px) {
     .video__subtitle {
-        font-size: 36px;
-        line-height: 39px;
+        top: 240px;
+        left: 30px;
     }
 }
 @media (max-width : 768px) {
     .video__subtitle {
-        max-width: 295px;
-        font-size: 14px;
-        line-height: 15px;
+        top: 160px;
+        left: 24px;
     }
 }
 @media (max-width : 425px) {
     .video__subtitle {
-        max-width: 295px;
-        font-size: 14px;
-        line-height: 15px;
+        top: 160px;
+        left: 24px;
     }
 }

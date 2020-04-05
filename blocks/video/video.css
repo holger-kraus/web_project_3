@@ -4,8 +4,11 @@
 @import url("__item/video__item.css");
 @import url("__item/_background/video__item_background_ragbrai.css");
 @import url("__item/_background/video__item_background_oldfaithful.css");
+@import url("__image/video__image.css");
 @import url("__overlay-container/video__overlay-container.css");
 @import url("__icon-play/video__icon-play.css");
 @import url("__title/video__title.css");
 @import url("__subtitle/video__subtitle.css");
 @import url("__duration/video__duration.css");
+@import url("__duration/_old-faithful/video__duration_old-faithful.css");
+@import url("__title/_old-faithful/video__title_old-faithful.css");

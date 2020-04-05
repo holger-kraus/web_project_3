@@ -1,21 +1,22 @@
 .video__container {
     display: flex;
+    justify-content: center;
     flex-direction: row;
-    margin-top: 102px;
+    margin: 72px auto 0;
 }
 
 @media (max-width : 1024px) {
     .video__container {
-        flex-direction: row;
     }
 }
 @media (max-width : 768px) {
     .video__container {
-        flex-direction: row;
+        margin: 56px auto 0;
     }
 }
 @media (max-width : 425px) {
     .video__container {
+        margin: 25px auto 0;
         flex-direction: column;
     }
 }

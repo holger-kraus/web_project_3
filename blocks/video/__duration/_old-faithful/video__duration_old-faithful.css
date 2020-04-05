@@ -1,0 +1,15 @@
+.video__duration_old-faithful {
+}
+
+@media (max-width : 768px) {
+    .video__duration_old-faithful {
+        top: 82px;
+        left: 24px;
+    }
+}
+@media (max-width : 425px) {
+    .video__duration_old-faithful {
+        top: 82px;
+        left: 24px;
+    }
+}
