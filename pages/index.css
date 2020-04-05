@@ -10,4 +10,8 @@
 @import url("../blocks/video/video.css");
 @import url("../blocks/comments/comments.css");
 @import url("../blocks/cover/cover.css");
+@import url("../blocks/content-title/content-title.css");
+@import url("../blocks/content-title/_comments/content-title_comments.css");
+@import url("../blocks/content-subtitle/content-subtitle.css");
+@import url("../blocks/content-subtitle/_comments/content-subtitle_comments.css");
 @import url("../blocks/footer/footer.css");
