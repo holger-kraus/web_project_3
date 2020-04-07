@@ -6,6 +6,8 @@
     margin: 24px 148px 0;
     text-align: left;
     max-width: 170px;
+    padding: 0;
+    list-style: none;
 }
 
 .intro__facts-bold {

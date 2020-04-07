@@ -4,12 +4,12 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 30px;
-    letter-spacing: 0.2em;
+    letter-spacing: .2em; /* It is defined in Figma like this */
     color: #FFFFFF;
 }
 
 .place__uri:hover {
-    opacity: 0.5;
+    opacity: .5;
 }
 
 @media (max-width : 1024px) {

@@ -4,6 +4,7 @@
     flex: 1 1 50%;
     font-size: 72px;
     line-height: 65px;
+    font-weight: 900;
 }
 
 @media (max-width : 1024px) {

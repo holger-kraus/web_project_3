@@ -3,14 +3,8 @@
     top: 30px;
     left: 30px;
     width: 41px;
-    heigth: 41px;
+    height: 41px;
     z-index: 2;
-}
-
-@media (max-width : 1024px) {
-    .video__icon-play {
-    }
-
 }
 @media (max-width : 768px) {
     .video__icon-play {

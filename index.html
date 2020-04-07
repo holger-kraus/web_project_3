@@ -18,7 +18,7 @@
   <section class="lead">
     <h1 class="lead__title">From Portland to Portland</h1>
     <p class="lead__subtitle">An epic bicycle journey from&nbsp;Portland, ME. to Portland, OR.</p>
-    <img class="lead__image" src="images/hatham-drwLkTp5gcM-unsplash%201%201%202.png" alt="landscape">
+    <img class="lead__image" src="images/hatham-drwLkTp5gcM-unsplash112.png" alt="landscape">
     <div class="lead__caption">Your journey starts here</div>
   </section>
   <section class="intro">
@@ -34,26 +34,28 @@
       to a billionaire to help eradicate polio in Africa, and even stopping by famous
       author Stephen King's house to say hi and asking him to sign your favorite book.
     </p>
-    <p class="intro__facts">
-      <span class="intro__facts-bold">Distance (miles)</span>&nbsp;3,644
-      <span class="intro__facts-bold">Travel time (days)</span>&nbsp;22
-      <span class="intro__facts-bold">Highest point (feet)</span>&nbsp;9,613
-      <span class="intro__facts-bold">Lowest point (feet)</span>&nbsp;-3
-    </p>
+    <ul class="intro__facts">
+      <li><span class="intro__facts-bold">Distance (miles)</span>&nbsp;3,644</li>
+      <li><span class="intro__facts-bold">Travel time (days)</span>&nbsp;22</li>
+      <li><span class="intro__facts-bold">Highest point (feet)</span>&nbsp;9,613</li>
+      <li><span class="intro__facts-bold">Lowest point (feet)</span>&nbsp;-3</li>
+    </ul>
   </section>
   <section class="photo-grid">
-    <img src="images/__item1.png" alt="road" class="photo-grid__item">
-    <img src="images/__item2.png" alt="mountain" class="photo-grid__item">
-    <img src="images/__item3.png" alt="birds" class="photo-grid__item">
-    <img src="images/__item4.png" alt="forest" class="photo-grid__item">
-    <img src="images/__item5.png" alt="foggy forest" class="photo-grid__item">
-    <img src="images/__item6.png" alt="foggy mountains" class="photo-grid__item">
-    <img src="images/__item7.png" alt="plant" class="photo-grid__item">
-    <img src="images/__item8.png" alt="mountains" class="photo-grid__item">
-    <img src="images/__item9.png" alt="river" class="photo-grid__item">
-    <img src="images/__item10.png" alt="birds" class="photo-grid__item">
-    <img src="images/__item11.png" alt="birds" class="photo-grid__item">
-    <img src="images/__item12.png" alt="birds" class="photo-grid__item">
+    <ul class="photo-grid__list">
+      <li><img src="images/__item1.png" alt="road" class="photo-grid__item"></li>
+      <li><img src="images/__item2.png" alt="mountain" class="photo-grid__item"></li>
+      <li><img src="images/__item3.png" alt="birds" class="photo-grid__item"></li>
+      <li><img src="images/__item4.png" alt="forest" class="photo-grid__item"></li>
+      <li><img src="images/__item5.png" alt="foggy forest" class="photo-grid__item"></li>
+      <li><img src="images/__item6.png" alt="foggy mountains" class="photo-grid__item"></li>
+      <li><img src="images/__item7.png" alt="plant" class="photo-grid__item"></li>
+      <li><img src="images/__item8.png" alt="mountains" class="photo-grid__item"></li>
+      <li><img src="images/__item9.png" alt="river" class="photo-grid__item"></li>
+      <li><img src="images/__item10.png" alt="birds" class="photo-grid__item"></li>
+      <li><img src="images/__item11.png" alt="birds" class="photo-grid__item"></li>
+      <li><img src="images/__item12.png" alt="birds" class="photo-grid__item"></li>
+    </ul>
   </section>
   <section class="places">
     <ul class="places__list">
@@ -61,10 +63,11 @@
         <h2 class="place__title">Maine</h2>
         <div class="place__website">
           <p class="place__uri-heading">URI</p>
-          <a class="place__uri"
+          <a class="place__uri" target="_blank"
              href="https://global.llbean.com/shop/L.L.Bean-Continental-Rucksack/122952.html?bc=50-816&csp=f&feat=816-GN1">global.llbean.com</a>
         </div>
-        <div class="place__image-container">
+        <div class="place__image-container"> <!-- This container is needed. If I move the according styles to the place__image class then the image
+                                                  doesn't keep it's original aspect ration and the layout is broken -->
           <img class="place__image" alt="view Maine" src="images/maine.png">
         </div>
         <div class="place__paragraphs">
@@ -94,7 +97,7 @@
         <h2 class="place__title">New Hampshire</h2>
         <div class="place__website">
           <p class="place__uri-heading">URI</p>
-          <a class="place__uri" href="https://www.timberland.com/timberlandpro.html">timberland.com</a>
+          <a class="place__uri" target="_blank" href="https://www.timberland.com/timberlandpro.html">timberland.com</a>
         </div>
         <div class="place__image-container">
           <img class="place__image" alt="view New Hampshire" src="images/newhampshire.png">
@@ -126,7 +129,7 @@
         <h2 class="place__title">New York</h2>
         <div class="place__website">
           <p class="place__uri-heading">URI</p>
-          <a class="place__uri" href="https://www.ge.com/about-us">ge.com</a>
+          <a class="place__uri" target="_blank" href="https://www.ge.com/about-us">ge.com</a>
         </div>
         <div class="place__image-container">
           <img class="place__image" alt="view New York" src="images/newyork.png">
@@ -155,7 +158,7 @@
         <h2 class="place__title">Erie, PA</h2>
         <div class="place__website">
           <p class="place__uri-heading">URI</p>
-          <a class="place__uri" href="https://www.fws.gov/refuge/erie/">www.fws.gov</a>
+          <a class="place__uri" target="_blank" href="https://www.fws.gov/refuge/erie/">www.fws.gov</a>
         </div>
         <div class="place__image-container">
           <img class="place__image" alt="view Erie" src="images/erie.png">
@@ -188,7 +191,7 @@
         <h2 class="place__title">Ohio</h2>
         <div class="place__website">
           <p class="place__uri-heading">URI</p>
-          <a class="place__uri" href="https://www.cedarpoint.com/">cedarpoint.com</a>
+          <a class="place__uri" target="_blank" href="https://www.cedarpoint.com/">cedarpoint.com</a>
         </div>
         <div class="place__image-container">
           <img class="place__image" alt="view Ohio" src="images/ohio.png">
@@ -222,20 +225,26 @@
     </p>
     <ul class="video__container">
       <li class="video__item">
-        <img class="video__image" alt="bikers" src="images/RAGBRAI.png">
-        <a class="video__overlay-container" href="https://www.youtube.com/watch?v=2eCG6Ozz-oE"></a>
-        <img class="video__icon-play" alt="play icon" src="images/__icon_play.svg">
-        <p class="video__duration">5:25</p>
-        <p class="video__title">RAGBRAI, Iowa</p>
-        <p class="video__subtitle">Author: Ryan Van Duzer</p>
+        <a class="video__link" href="https://www.youtube.com/watch?v=2eCG6Ozz-oE" target="_blank">
+          <img class="video__image" alt="bikers" src="images/RAGBRAI.png">
+          <div class="video__overlay-container"></div>
+          <img class="video__icon-play" alt="play icon" src="images/__icon_play.svg">
+          <time class="video__duration">5:25</time>
+          <h3 class="video__title">RAGBRAI, Iowa</h3>
+          <p class="video__subtitle">Author: Ryan Van Duzer</p>
+        </a>
       </li>
       <li class="video__item">
-        <img class="video__image" alt="geyser" src="images/OldFaithful.png">
-        <a href="#" class="video__overlay-container"></a>
-        <img class="video__icon-play" alt="play icon" src="images/__icon_play.svg">
-        <p class="video__duration video__duration_old-faithful">2:36</p>
-        <p class="video__title video__title_old-faithful">Old Faithful Geyser, Wyoming</p>
-        <p class="video__subtitle">Author: David Ellis</p>
+        <a class="video__link" href="https://www.youtube.com/watch?v=4mZY7uxb7Gc" target="_blank">
+          <img class="video__image" alt="geyser" src="images/OldFaithful.png">
+          <div class="video__overlay-container"></div>
+          <img class="video__icon-play" alt="play icon" src="images/__icon_play.svg">
+          <time class="video__duration video__duration_old-faithful">2:36</time> <!-- The modifiers for old faithful are not unnecessary, because the duration
+                                                                                  and title have to be positioned in a different way for the lower screen sizes for this video. If I don't
+                                                                                  use them can't use absolute positioning anymore what I prefer at this place -->
+          <h3 class="video__title video__title_old-faithful">Old Faithful Geyser, Wyoming</h3>
+          <p class="video__subtitle">Author: David Ellis</p>
+        </a>
       </li>
     </ul>
   </section>
@@ -247,50 +256,53 @@
     <ul class="comments__container">
       <li class="comments__comment">
         <img src="images/354px-Beatrice_Morrow_Cannady%201.png" alt="Beatrice Morrow" class="comments__image">
-        <p class="comments__quote">
+        <blockquote class="comments__quote">
           It is the duty of the Negro woman to see that in the home there are histories
           of her race written by Negro historians.
-        </p>
+        </blockquote>
         <p class="comments__author">
           Beatrice Morrow Cannady, Portland, Oregon
         </p>
       </li>
       <li class="comments__comment">
         <img src="images/816px-Jane_Addams_-_Bain_News_Service%201.png" alt="Jane Adams Baine" class="comments__image">
-        <p class="comments__quote">
+        <blockquote class="comments__quote">
           The good we secure for ourselves is precarious and uncertain, is floating in mid&#8209;air,
           until it is secured for all of us and incorporated into our common life.
-        </p>
+        </blockquote>
         <p class="comments__author">
           Jane Addams, Cedarville, Illinois
         </p>
       </li>
       <li class="comments__comment">
         <img src="images/Stephen_King_-_2011%201.png" alt="Stephen King" class="comments__image">
-        <p class="comments__quote">
+        <blockquote class="comments__quote">
           Books are the perfect entertainment: no commercials, no batteries,
           hours of enjoyment for each dollar spent.
-        </p>
+        </blockquote>
         <p class="comments__author">
           Stephen King, born in Portland, Maine
         </p>
       </li>
     </ul>
   </section>
-  <div class="cover">
-    <div class="cover__bg"></div>
-    <img class="cover__image" src="images/HistoricRoute.jpg" alt="Road">
+  <section class="cover">
+  <div class="cover__bg"></div>  <!-- This layer has to be kept as it is used to darken the image, background-image and
+      background-color can't be in the same layer, but with moving the image as a background image to the cover class
+      now it is according to Figma -->
     <h2 class="cover__title">Historic Route 66</h2>
-    <p class="cover__subtitle">The&nbsp;Main&nbsp;Street&nbsp;of&nbsp;America from&nbsp;Santa&nbsp;Monica,&nbsp;Cal.&nbsp;to&nbsp;Chicago,&nbsp;Ill.
-      within&nbsp;an&nbsp;iframe</p>
-  </div>
+    <p class="cover__subtitle">The Main Street of America from&nbsp;Santa&nbsp;Monica,&nbsp;Cal.&nbsp;to&nbsp;Chicago,&nbsp;Ill.
+      within an iframe</p>
+  </section>
 </main>
 <footer class="footer">
-  <div class="footer__link-container">
-    <a href="#" class="footer__link">Maps</a>
-    <a href="#" class="footer__link">Weather</a>
-    <a href="#" class="footer__link">Calendar</a>
-  </div>
+  <nav>
+    <ul class="footer__link-container">
+      <li><a href="#" class="footer__link">Maps</a></li>
+      <li><a href="#" class="footer__link">Weather</a></li>
+      <li><a href="#" class="footer__link">Calendar</a></li>
+    </ul>
+  </nav>
   <p class="footer__copyright">© 2020. Holger Kraus</p>
 </footer>
 </body>

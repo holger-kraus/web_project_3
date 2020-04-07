@@ -15,7 +15,7 @@
 
 @media (max-width : 1024px) {
     .cover__subtitle {
-        width: 436px;
+        width: 382px;
         top: 490px;
         left: 0;
         font-size: 18px;
@@ -35,7 +35,7 @@
 }
 @media (max-width : 425px) {
     .cover__subtitle  {
-        width: 343px;
+        width: 280px;
         top: 190px;
         left: 0;
         font-size: 14px;
