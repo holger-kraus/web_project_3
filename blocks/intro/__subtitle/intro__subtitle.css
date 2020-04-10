@@ -1,5 +1,5 @@
 .intro__subtitle {
-    margin: 46px 148px 0;
+    margin: 45px 148px 0;
     max-width: 683px;
     font-style: normal;
     font-weight: normal;
@@ -9,7 +9,7 @@
 
 @media (max-width : 1024px) {
     .intro__subtitle {
-        margin: 46px 48px 0;
+        margin: 38px 48px 0; /* TODO this was the only place where the gap was not in the brief */
     }
 }
 @media (max-width : 768px) {

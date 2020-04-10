@@ -2,6 +2,13 @@
     width: 100%;
     height: 323px;
     border-radius: 5px;
+    z-index: 0;
+    background-image: url("../../../images/RAGBRAI.png");
+    background-size: cover;
+}
+
+.video__image:hover {
+  opacity: 0.4;
 }
 
 @media (max-width : 1024px) {

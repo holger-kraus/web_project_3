@@ -19,7 +19,7 @@
     <h1 class="lead__title">From Portland to Portland</h1>
     <p class="lead__subtitle">An epic bicycle journey from&nbsp;Portland, ME. to Portland, OR.</p>
     <img class="lead__image" src="images/hatham-drwLkTp5gcM-unsplash112.png" alt="landscape">
-    <div class="lead__caption">Your journey starts here</div>
+    <p class="lead__caption">Your journey starts here</p>
   </section>
   <section class="intro">
     <h2 class="intro__title">Know the country you live in a little better</h2>
@@ -66,10 +66,7 @@
           <a class="place__uri" target="_blank"
              href="https://global.llbean.com/shop/L.L.Bean-Continental-Rucksack/122952.html?bc=50-816&csp=f&feat=816-GN1">global.llbean.com</a>
         </div>
-        <div class="place__image-container"> <!-- This container is needed. If I move the according styles to the place__image class then the image
-                                                  doesn't keep it's original aspect ration and the layout is broken -->
-          <img class="place__image" alt="view Maine" src="images/maine.png">
-        </div>
+        <img class="place__image" alt="view Maine" src="images/maine.png">
         <div class="place__paragraphs">
           <p class="place__paragraph">
             Still, as sparsely populated as it was in the 1600s, this is an extraordinary and highly
@@ -227,23 +224,27 @@
       <li class="video__item">
         <a class="video__link" href="https://www.youtube.com/watch?v=2eCG6Ozz-oE" target="_blank">
           <img class="video__image" alt="bikers" src="images/RAGBRAI.png">
-          <div class="video__overlay-container"></div>
-          <img class="video__icon-play" alt="play icon" src="images/__icon_play.svg">
-          <time class="video__duration">5:25</time>
-          <h3 class="video__title">RAGBRAI, Iowa</h3>
-          <p class="video__subtitle">Author: Ryan Van Duzer</p>
+          <div class="video__overlay-container">
+            <img class="video__icon-play" alt="play icon" src="images/__icon_play.svg">
+            <time class="video__duration">5:25</time>
+            <h3 class="video__title">RAGBRAI, Iowa</h3>
+            <p class="video__subtitle">Author: Ryan Van Duzer</p>
+          </div>
+          <div class="video__bg"></div>
         </a>
       </li>
       <li class="video__item">
         <a class="video__link" href="https://www.youtube.com/watch?v=4mZY7uxb7Gc" target="_blank">
+          <div class="video__bg"></div>
           <img class="video__image" alt="geyser" src="images/OldFaithful.png">
-          <div class="video__overlay-container"></div>
-          <img class="video__icon-play" alt="play icon" src="images/__icon_play.svg">
-          <time class="video__duration video__duration_old-faithful">2:36</time> <!-- The modifiers for old faithful are not unnecessary, because the duration
+          <div class="video__overlay-container">
+            <img class="video__icon-play" alt="play icon" src="images/__icon_play.svg">
+            <time class="video__duration video__duration_old-faithful">2:36</time> <!-- The modifiers for old faithful are not unnecessary, because the duration
                                                                                   and title have to be positioned in a different way for the lower screen sizes for this video. If I don't
                                                                                   use them can't use absolute positioning anymore what I prefer at this place -->
-          <h3 class="video__title video__title_old-faithful">Old Faithful Geyser, Wyoming</h3>
-          <p class="video__subtitle">Author: David Ellis</p>
+            <h3 class="video__title video__title_old-faithful">Old Faithful Geyser, Wyoming</h3>
+            <p class="video__subtitle">Author: David Ellis</p>
+          </div>
         </a>
       </li>
     </ul>
@@ -287,7 +288,7 @@
     </ul>
   </section>
   <section class="cover">
-  <div class="cover__bg"></div>  <!-- This layer has to be kept as it is used to darken the image, background-image and
+    <div class="cover__bg"></div>  <!-- This layer has to be kept as it is used to darken the image, background-image and
       background-color can't be in the same layer, but with moving the image as a background image to the cover class
       now it is according to Figma -->
     <h2 class="cover__title">Historic Route 66</h2>

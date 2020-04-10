@@ -20,7 +20,7 @@
 }
 @media (max-width : 425px) {
     .photo-grid__item {
-        width: 343px;
+        width: 343px; /* TODO the brief says 343px and it is 343px here */
         height: 232px;
         margin: 0 0 16px 0;
     }

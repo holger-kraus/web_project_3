@@ -1,23 +1,27 @@
 .lead__image {
-    margin: 65px 148px 0;
+    margin: 67px 148px 0;
     max-width: 984px;
+    height: 565px;
 }
 
 @media (max-width : 1024px) {
     .lead__image {
         max-width: 928px;
+        height: 554px;
         margin: 65px 48px 0;
     }
 }
 @media (max-width : 768px) {
     .lead__image {
-        margin: 65px 0 0;
+        margin: 67px 0 0;
         max-width: 768px;
+        height: 442px;
     }
 }
 @media (max-width : 425px) {
     .lead__image {
         margin: 33px 0 0;
         max-width: 425px;
+        height: 219px;
     }
 }

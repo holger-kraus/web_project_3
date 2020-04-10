@@ -7,5 +7,6 @@
 @import url("__link/video__link.css");
 @import url("__subtitle/video__subtitle.css");
 @import url("__duration/video__duration.css");
+@import url("__bg/video__bg.css");
 @import url("__duration/_old-faithful/video__duration_old-faithful.css");
 @import url("__title/_old-faithful/video__title_old-faithful.css");

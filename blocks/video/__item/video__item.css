@@ -1,6 +1,6 @@
 .video__item {
     position: relative;
-    max-width: 583px; /* This is exactly the value that is specified in Figma for 1440 and 1280 */
+    width: 583px;
     height: 323px;
     margin: 0 9px 0;
     overflow: hidden;
