@@ -96,9 +96,7 @@
           <p class="place__uri-heading">URI</p>
           <a class="place__uri" target="_blank" href="https://www.timberland.com/timberlandpro.html">timberland.com</a>
         </div>
-        <div class="place__image-container">
-          <img class="place__image" alt="view New Hampshire" src="images/newhampshire.png">
-        </div>
+        <img class="place__image" alt="view New Hampshire" src="images/newhampshire.png">
         <div class="place__paragraphs">
           <p class="place__paragraph">
             There's no better place to lose yourself in nature than in springtime New Hampshire.
@@ -128,26 +126,18 @@
           <p class="place__uri-heading">URI</p>
           <a class="place__uri" target="_blank" href="https://www.ge.com/about-us">ge.com</a>
         </div>
-        <div class="place__image-container">
-          <img class="place__image" alt="view New York" src="images/newyork.png">
-        </div>
+        <img class="place__image" alt="view New York" src="images/newyork.png">
         <div class="place__paragraphs">
           <p class="place__paragraph">
             Not only famous for “The Big Apple,” the state of NY also has several other reasons for going
-            down
-            in history. Since the late 1800s Schenectady, “The City that Lights and Hauls the World,” has
-            been
-            home to the world-famous General Electric Company.
+            down in history. Since the late 1800s Schenectady, “The City that Lights and Hauls the World,” has
+            been home to the world-famous General Electric Company.
           </p>
           <p class="place__paragraph">
             This is where modern power generators were born as well as contemporary means of transmitting
-            energy.
-            So we figured this would be the perfect place to find a batteryless dynamo light for your
-            bicycle to
-            help you see through those dark lonely roads on your adventure. Such a light from GE will set
-            you
-            back
-            about $10-20.
+            energy. So we figured this would be the perfect place to find a batteryless dynamo light for your
+            bicycle to help you see through those dark lonely roads on your adventure. Such a light from GE will set
+            you back about $10-20.
           </p>
         </div>
       </li>
@@ -157,9 +147,7 @@
           <p class="place__uri-heading">URI</p>
           <a class="place__uri" target="_blank" href="https://www.fws.gov/refuge/erie/">www.fws.gov</a>
         </div>
-        <div class="place__image-container">
-          <img class="place__image" alt="view Erie" src="images/erie.png">
-        </div>
+        <img class="place__image" alt="view Erie" src="images/erie.png">
         <div class="place__paragraphs">
           <p class="place__paragraph">
             Erie, Pennsylvania, not to be confused with the word “eerie,” although it can be from time to
@@ -190,9 +178,7 @@
           <p class="place__uri-heading">URI</p>
           <a class="place__uri" target="_blank" href="https://www.cedarpoint.com/">cedarpoint.com</a>
         </div>
-        <div class="place__image-container">
-          <img class="place__image" alt="view Ohio" src="images/ohio.png">
-        </div>
+        <img class="place__image" alt="view Ohio" src="images/ohio.png">
         <div class="place__paragraphs">
           <p class="place__paragraph">
             From the college capital of Columbus to the clean coastline of Cleveland, Ohio is a truly hidden
@@ -221,32 +207,22 @@
       the most famous geyser of Yellowstone National Park
     </p>
     <ul class="video__container">
-      <li class="video__item">
-        <a class="video__link" href="https://www.youtube.com/watch?v=2eCG6Ozz-oE" target="_blank">
-          <img class="video__image" alt="bikers" src="images/RAGBRAI.png">
-          <div class="video__overlay-container">
-            <img class="video__icon-play" alt="play icon" src="images/__icon_play.svg">
-            <time class="video__duration">5:25</time>
-            <h3 class="video__title">RAGBRAI, Iowa</h3>
-            <p class="video__subtitle">Author: Ryan Van Duzer</p>
-          </div>
-          <div class="video__bg"></div>
-        </a>
-      </li>
-      <li class="video__item">
-        <a class="video__link" href="https://www.youtube.com/watch?v=4mZY7uxb7Gc" target="_blank">
-          <div class="video__bg"></div>
-          <img class="video__image" alt="geyser" src="images/OldFaithful.png">
-          <div class="video__overlay-container">
-            <img class="video__icon-play" alt="play icon" src="images/__icon_play.svg">
-            <time class="video__duration video__duration_old-faithful">2:36</time> <!-- The modifiers for old faithful are not unnecessary, because the duration
-                                                                                  and title have to be positioned in a different way for the lower screen sizes for this video. If I don't
-                                                                                  use them can't use absolute positioning anymore what I prefer at this place -->
-            <h3 class="video__title video__title_old-faithful">Old Faithful Geyser, Wyoming</h3>
-            <p class="video__subtitle">Author: David Ellis</p>
-          </div>
-        </a>
-      </li>
+      <a class="video__link" href="https://www.youtube.com/watch?v=2eCG6Ozz-oE" target="_blank">
+        <li class="video__item video__item_ragbrai">
+          <div class="video__icon-play"></div>
+          <time class="video__duration">5:25</time>
+          <h3 class="video__title">RAGBRAI, Iowa</h3>
+          <p class="video__subtitle">Author: Ryan Van Duzer</p>
+        </li>
+      </a>
+      <a class="video__link" href="https://www.youtube.com/watch?v=4mZY7uxb7Gc" target="_blank">
+        <li class="video__item video__item_old-faithful">
+          <div class="video__icon-play"></div>
+          <time class="video__duration video__duration_old-faithful">2:36</time>
+          <h3 class="video__title video__title_old-faithful">Old Faithful Geyser, Wyoming</h3>
+          <p class="video__subtitle">Author: David Ellis</p>
+        </li>
+      </a>
     </ul>
   </section>
   <section class="comments">
@@ -288,9 +264,6 @@
     </ul>
   </section>
   <section class="cover">
-    <div class="cover__bg"></div>  <!-- This layer has to be kept as it is used to darken the image, background-image and
-      background-color can't be in the same layer, but with moving the image as a background image to the cover class
-      now it is according to Figma -->
     <h2 class="cover__title">Historic Route 66</h2>
     <p class="cover__subtitle">The Main Street of America from&nbsp;Santa&nbsp;Monica,&nbsp;Cal.&nbsp;to&nbsp;Chicago,&nbsp;Ill.
       within an iframe</p>
@@ -299,9 +272,9 @@
 <footer class="footer">
   <nav>
     <ul class="footer__link-container">
-      <li><a href="#" class="footer__link">Maps</a></li>
-      <li><a href="#" class="footer__link">Weather</a></li>
-      <li><a href="#" class="footer__link">Calendar</a></li>
+      <li class="footer__link-item"><a href="#" class="footer__link">Maps</a></li>
+      <li class="footer__link-item"><a href="#" class="footer__link">Weather</a></li>
+      <li class="footer__link-item"><a href="#" class="footer__link">Calendar</a></li>
     </ul>
   </nav>
   <p class="footer__copyright">© 2020. Holger Kraus</p>

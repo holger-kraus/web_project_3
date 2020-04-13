@@ -1,34 +1,20 @@
 .place__uri {
-    padding-left: 40px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 30px;
-    color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #FFFFFF;
+  text-decoration-line: underline;
 }
 
 .place__uri:hover {
-    opacity: .5;
+  opacity: .5;
 }
 
-@media (max-width : 1024px) {
-    .place__uri {
-        padding-left: 32px;
-        font-size: 18px;
-        line-height: 30px;
-        text-decoration-line: underline;
-    }
-}
-@media (max-width : 768px) {
-    .place__uri {
-        padding-left: 28px;
-        font-size: 18px;
-        line-height: 30px;
-        text-decoration-line: underline;
-    }
-}
-@media (max-width : 425px) {
-    .place__uri {
-        visibility: hidden;
-    }
+@media (max-width: 425px) {
+  .place__uri {
+    visibility: hidden;
+  }
 }

@@ -1,6 +1,6 @@
 .place__paragraph {
-    padding: 0 0 40px 40px;
-    margin: 0;
+    padding: 0;
+    margin: 0 0 40px;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -8,20 +8,13 @@
     color: #FFFFFF;
 }
 
-@media (max-width : 1024px) {
-    .place__paragraph {
-        padding-left: 32px;
-    }
+.place__paragraph:last-child {
+    margin-bottom: 0;
 }
-@media (max-width : 768px) {
-    .place__paragraph {
-        padding-left: 28px;
-    }
-}
+
 @media (max-width : 425px) {
     .place__paragraph {
-        padding-left: 16px;
-        padding-bottom: 26px;
+        margin: 0 0 26px;
         font-size: 16px;
         line-height: 27px;
     }

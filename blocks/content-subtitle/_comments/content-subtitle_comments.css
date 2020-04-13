@@ -1,5 +1,5 @@
 .content-subtitle_comments {
-  margin: 66px auto 0 auto;
+  margin: 48px auto 0 auto;
 }
 
 @media (max-width : 1024px) {
@@ -10,12 +10,18 @@
 @media (max-width : 768px) {
   .content-subtitle_comments {
     max-width: 580px;
-    margin-top: 48px;
+    margin-top: 32px;
   }
 }
 @media (max-width : 425px) {
   .content-subtitle_comments {
     max-width: 350px;
     margin-top: 16px;
+  }
+}
+@media (max-width : 320px) {
+  .content-subtitle_comments {
+    max-width: 288px;
+    margin-top: 27px;
   }
 }

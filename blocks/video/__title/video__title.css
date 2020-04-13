@@ -1,31 +1,26 @@
 .video__title {
+    margin: 12px 0 0;
+    padding: 0;
     max-width: 322px;
-    margin: 0 0 18px 30px;
     font-style: normal;
     font-weight: 900;
     font-size: 36px;
     line-height: 39px;
+    flex: 1;
     z-index: 2;
 }
 
 @media (max-width : 1024px) {
     .video__title {
-        margin: 0 0 18px 30px;
         font-size: 36px;
         line-height: 39px;
     }
 }
 @media (max-width : 768px) {
     .video__title {
-        margin: 0 0 12px 24px;
+        margin: 8px 0 0;
         font-size: 24px;
         line-height: 26px;
-    }
-}
-@media (max-width : 425px) {
-    .video__title {
-        margin: 0 0 12px 24px;
-        font-size: 24px;
-        line-height: 26px;
+        flex: 0;
     }
 }

@@ -1,22 +1,23 @@
 .place__website {
-    margin: 0;
+    margin: 0 0 60px 20px;
     padding: 0;
-    flex: 1 1 50%;
-    align-self: flex-end;
+    width: 484px;
+    /*align-self: flex-end;*/
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-end;
 }
 
 @media (max-width : 1024px) {
     .place__website {
-        flex: 1 1 50%;
-
+      margin: 0 0 60px 16px;
+      width: 455px;
     }
 }
 @media (max-width : 768px) {
     .place__website {
-        flex: 1 1 50%;
+      margin: 0 0 60px 14px;
+      width: 352px;
     }
 }
 @media (max-width : 425px) {

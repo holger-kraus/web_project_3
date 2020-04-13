@@ -20,8 +20,18 @@
 }
 @media (max-width : 425px) {
     .photo-grid__item {
-        width: 343px; /* TODO the brief says 343px and it is 343px here */
+        width: 343px;
         height: 232px;
         margin: 0 0 16px 0;
     }
 }
+@media (max-width : 320px) {
+  .photo-grid__item {
+    width: 288px;
+    height: 192px;
+    margin: 0 0 8px 0;
+  }
+}
+
+
+

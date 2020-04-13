@@ -14,8 +14,6 @@
         margin: 30px 9px 0;
         padding: 0;
         max-width: 296px;
-        font-size: 14px;
-        line-height: 24px;
         order: 2;
     }
 }
@@ -34,11 +32,22 @@
     .comments__quote {
         margin: 24px 16px 0;
         padding: 0;
-        max-width: 382px;
-        font-style: normal;
-        font-weight: normal;
+        max-width: 343px;
         font-size: 16px;
         line-height: 23px;
         order: 3;
     }
+}
+
+@media (max-width : 425px) {
+  .comments__quote {
+    margin: 24px 16px 0;
+    padding: 0;
+    max-width: 288px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    order: 3;
+  }
 }

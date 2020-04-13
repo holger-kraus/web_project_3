@@ -1,5 +1,5 @@
 .comments__author {
-    margin: 22px 9px 0;
+    margin: 12px 9px 0;
     padding: 0;
     max-width: 382px;
     font-style: normal;
@@ -14,8 +14,6 @@
         margin: 18px 9px 0;
         padding: 0;
         max-width: 296px;
-        font-style: normal;
-        font-weight: 900;
         font-size: 14px;
         line-height: 22px;
         order: 3;
@@ -26,9 +24,7 @@
         margin: 14px 9px 0;
         padding: 0;
         max-width: 382px;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 24px;
         text-align: center;
         order: 2;
@@ -39,9 +35,7 @@
         margin: 14px 16px 0;
         padding: 0;
         max-width: 343px;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 24px;
         text-align: center;
         order: 2;

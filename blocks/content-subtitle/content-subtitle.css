@@ -1,5 +1,5 @@
 .content-subtitle {
-  width: 640px;
+  max-width: 640px;
   padding: 0;
   margin: 38px auto 0 auto;
   font-style: normal;

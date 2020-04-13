@@ -3,7 +3,7 @@
     background-color: #2A2C2F;
     color: #FFFFFF;
     font-family: 'Inter', Arial, sans-serif;
-    padding: 0 0 48px;
+    padding: 0;
     margin: 0 auto;
 }
 
@@ -15,12 +15,10 @@
 @media (max-width : 768px) {
     .page {
         max-width: 768px;
-        padding: 0 0 24px;
     }
 }
 @media (max-width : 425px) {
     .page {
         max-width: 425px;
-        padding: 0 0 24px;
     }
 }

@@ -9,6 +9,7 @@
 
 .place {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     margin-bottom: 82px;
 }
