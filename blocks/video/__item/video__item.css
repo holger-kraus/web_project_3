@@ -1,18 +1,14 @@
 @import url("_old-faithful/video__item_old-faithful.css");
-@import url("_ragbrai/video__item_rabrai.css");
+@import url("_ragbrai/video__item_ragbrai.css");
 
 .video__item {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    padding: 30px 30px 30px;
+    margin: 0 9px 0;
     max-width: 583px;
     height: 323px;
-    margin: 0;
     border-radius: 5px;
+    padding: 0;
     overflow: hidden;
     background-size: cover;
-    position: relative;
 }
 
 .video__item:hover:after {
@@ -29,7 +25,6 @@
 
 @media (max-width : 1024px) {
     .video__item {
-        padding: 30px 30px 35px;
         max-width: 456px;
         height: 288px;
     }
@@ -37,14 +32,13 @@
 }
 @media (max-width : 768px) {
     .video__item {
-        padding: 24px 24px 24px;
+        margin: 0 8px 0;
         max-width: 352px;
         height: 200px;
     }
 }
 @media (max-width : 425px) {
     .video__item {
-        padding: 24px 24px 24px;
         margin: 0 auto 8px auto;
         max-width: 343px;
         height: 200px;
@@ -52,7 +46,7 @@
 }
 @media (max-width : 320px) {
   .video__item {
-    padding: 16px 16px 16px;
+    margin: 0 auto 8px auto;
     max-width: 288px;
     height: 192px;
   }
