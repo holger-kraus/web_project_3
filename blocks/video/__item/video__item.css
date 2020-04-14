@@ -2,13 +2,13 @@
 @import url("_ragbrai/video__item_ragbrai.css");
 
 .video__item {
-    margin: 0 9px 0;
-    max-width: 583px;
-    height: 323px;
-    border-radius: 5px;
-    padding: 0;
-    overflow: hidden;
-    background-size: cover;
+  margin: 0 9px 0;
+  max-width: 583px;
+  height: 323px;
+  border-radius: 5px;
+  padding: 0;
+  overflow: hidden;
+  background-size: cover;
 }
 
 .video__item:hover:after {
@@ -18,33 +18,36 @@
   top: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   z-index: 1;
   border-radius: 5px;
 }
 
-@media (max-width : 1024px) {
-    .video__item {
-        max-width: 456px;
-        height: 288px;
-    }
+@media (max-width: 1024px) {
+  .video__item {
+    max-width: 456px;
+    height: 288px;
+  }
 
 }
-@media (max-width : 768px) {
-    .video__item {
-        margin: 0 8px 0;
-        max-width: 352px;
-        height: 200px;
-    }
+
+@media (max-width: 768px) {
+  .video__item {
+    margin: 0 8px 0;
+    max-width: 352px;
+    height: 200px;
+  }
 }
-@media (max-width : 425px) {
-    .video__item {
-        margin: 0 auto 8px auto;
-        max-width: 343px;
-        height: 200px;
-    }
+
+@media (max-width: 425px) {
+  .video__item {
+    margin: 0 auto 8px auto;
+    max-width: 343px;
+    height: 200px;
+  }
 }
-@media (max-width : 320px) {
+
+@media (max-width: 320px) {
   .video__item {
     margin: 0 auto 8px auto;
     max-width: 288px;
